@@ -52,9 +52,9 @@ nav{background:var(--white);border-bottom:2px solid var(--border);padding:0 5%;d
 .mobile-menu-cta a{display:block;background:var(--mauve);color:#fff;text-align:center;padding:0.875rem;border-radius:5px;font-weight:700;font-size:0.9375rem;text-decoration:none}
 .mobile-menu-phone{display:block;text-align:center;color:var(--plum);font-weight:600;font-size:0.875rem;text-decoration:none;padding:0.6rem;margin-top:0.5rem}
 /* HERO */
-.hero{position:relative;width:100%;min-height:560px;overflow:hidden;display:flex;align-items:center}
+.hero{position:relative;width:100%;height:90vh;min-height:520px;max-height:780px;overflow:hidden;display:flex;align-items:center}
 .hero-bg{position:absolute;inset:0;background:linear-gradient(100deg,rgba(30,22,36,0.88) 0%,rgba(92,53,120,0.6) 45%,rgba(92,53,120,0.1) 100%);z-index:1}
-.hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:right center;z-index:0}
+.hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:right 15%;z-index:0}
 .hero-content{position:relative;z-index:2;padding:5rem 5%;max-width:600px}
 .hero-eyebrow{display:inline-block;background:var(--mauve);color:#fff;font-size:0.7rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;padding:0.3rem 0.9rem;border-radius:3px;margin-bottom:1.25rem}
 .hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.2rem,4.5vw,3.8rem);font-weight:700;line-height:1.1;color:#fff;margin-bottom:1.25rem}
@@ -202,7 +202,7 @@ footer{background:var(--ink);padding:3rem 5%}
   .services-grid{grid-template-columns:1fr}
   .fg-row{grid-template-columns:1fr}
   .footer-inner{grid-template-columns:1fr}
-  .hero{min-height:420px}
+  .hero{height:70vh;min-height:380px;max-height:520px}
   .hero-content{padding:3rem 5%}
   .util-bar{flex-direction:column;gap:0.4rem;padding:0.5rem 5%;text-align:center}
   .util-left,.util-right{justify-content:center;gap:1rem}
@@ -218,9 +218,9 @@ footer{background:var(--ink);padding:3rem 5%}
   "@type": "Dentist",
   "name": "Dental Avenue Clinic",
   "description": "Multispeciality dental clinic in Vaishali Nagar, Jaipur offering pediatric dentistry, dental implants, root canal treatment, orthodontics, teeth whitening, and cosmetic smile design.",
-  "url": "https://dental-avenue-clinic.netlify.app",
+  "url": "https://dentalavenuejaipur.com",
   "telephone": "+91-9829495869",
-  "image": "https://dental-avenue-clinic.netlify.app/logo.png",
+  "image": "https://dentalavenuejaipur.com/logo.png",
   "priceRange": "₹₹",
   "address": {
     "@type": "PostalAddress",
@@ -333,7 +333,7 @@ footer{background:var(--ink);padding:3rem 5%}
   </div>
   <div class="util-right">
     <span>Mon–Sat · 9–1 PM &amp; 5–7:30 PM · Sun Closed</span>
-    <a href="#contact" class="util-appt">Book Appointment</a>
+    <a href="https://wa.me/919829495869?text=Hello%20Dr.%20Pooja%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" class="util-appt">Book Appointment</a>
   </div>
 </div>
 
@@ -366,7 +366,7 @@ footer{background:var(--ink);padding:3rem 5%}
       <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
     </ul>
     <div class="mobile-menu-cta">
-      <a href="#contact" onclick="closeMenu()">📅 Book an Appointment</a>
+      <a href="https://wa.me/919829495869?text=Hello%20Dr.%20Pooja%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" onclick="closeMenu()">📅 Book on WhatsApp</a>
       <a href="tel:+919829495869" class="mobile-menu-phone">📞 +91-9829495869</a>
     </div>
   </div>
@@ -381,7 +381,7 @@ footer{background:var(--ink);padding:3rem 5%}
     <h1>Welcome to<br><em>Dental Avenue</em><br>Clinic</h1>
     <p class="hero-sub">Advanced dental care with a warm, personal touch — for every member of your family. Led by Dr. Pooja Goyal, MDS (Pediatric Dentistry) &amp; PGCOI Implantologist.</p>
     <div class="hero-actions">
-      <a href="#contact" class="btn-hero">Book Appointment</a>
+      <a href="https://wa.me/919829495869?text=Hello%20Dr.%20Pooja%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20Dental%20Avenue%20Clinic." target="_blank" class="btn-hero">Book Appointment</a>
       <a href="#services" class="btn-hero-outline">Our Services</a>
     </div>
   </div>
@@ -578,7 +578,7 @@ footer{background:var(--ink);padding:3rem 5%}
         <li class="why-item"><span class="why-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>Complimentary tea &amp; coffee in our comfortable waiting lounge</li>
         <li class="why-item"><span class="why-check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>Full treatment plan &amp; costs explained before any procedure</li>
       </ul>
-      <a href="#contact" class="btn-hero" style="margin-top:2rem;display:inline-block">Book Your Visit →</a>
+      <a href="https://wa.me/919829495869?text=Hello%20Dr.%20Pooja%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" class="btn-hero" style="margin-top:2rem;display:inline-block">Book Your Visit →</a>
     </div>
   </div>
 </section>
@@ -603,7 +603,7 @@ footer{background:var(--ink);padding:3rem 5%}
   <header style="margin-bottom:3rem">
     <p class="section-label" style="font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.14em;color:var(--mauve);margin-bottom:0.6rem">What our patients say</p>
     <h2 class="section-title" style="font-family:'Playfair Display',serif;font-size:clamp(1.8rem,3vw,2.5rem);font-weight:700;line-height:1.2;color:var(--ink);margin-bottom:1rem">
-      Trusted by families across<br><em style="color:var(--mauve);font-style:italic">Vaishali Nagar, Jaipur</em>
+      Trusted by families across<br><em style="color:var(--mauve);font-style:italic">Jaipur</em>
     </h2>
     <p style="font-size:0.9375rem;color:var(--muted);max-width:560px;line-height:1.8">Real experiences from verified patients — from pediatric care to root canals, braces, and implants. All reviews sourced from Practo &amp; Justdial.</p>
   </header>
@@ -622,6 +622,7 @@ footer{background:var(--ink);padding:3rem 5%}
   </div>
 
   <!-- Review grid -->
+  <div class="review-grid-wrap">
   <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem" class="review-grid">
 
     <!-- Review 1 — Pediatric -->
@@ -754,7 +755,7 @@ footer{background:var(--ink);padding:3rem 5%}
       <div style="font-size:2.5rem" aria-hidden="true">⭐</div>
       <p style="font-family:'Playfair Display',serif;font-size:1.25rem;font-weight:700;color:#fff;line-height:1.3">Your smile story starts here</p>
       <p style="font-size:0.875rem;color:rgba(255,255,255,0.75);line-height:1.6">Join hundreds of satisfied patients trusting Dental Avenue Clinic in Vaishali Nagar, Jaipur.</p>
-      <a href="#contact" style="background:var(--mauve);color:#fff;border-radius:5px;padding:0.75rem 1.5rem;font-family:'Open Sans',sans-serif;font-size:0.875rem;font-weight:700;text-decoration:none;transition:background 0.2s;display:inline-block">Book Your Visit →</a>
+      <a href="https://wa.me/919829495869?text=Hello%20Dr.%20Pooja%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" style="background:var(--mauve);color:#fff;border-radius:5px;padding:0.75rem 1.5rem;font-family:'Open Sans',sans-serif;font-size:0.875rem;font-weight:700;text-decoration:none;transition:background 0.2s;display:inline-block">Book Your Visit →</a>
     </div>
 
   </div>
@@ -762,10 +763,84 @@ footer{background:var(--ink);padding:3rem 5%}
   <style>
     .review-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5rem; }
     @media(max-width:960px){ .review-grid { grid-template-columns: 1fr 1fr; } }
-    @media(max-width:600px){ .review-grid { grid-template-columns: 1fr; } }
     blockquote { quotes: none; }
     blockquote::before, blockquote::after { content: none; }
+
+    /* ── Mobile carousel ── */
+    @media(max-width:600px){
+      .review-grid-wrap { position:relative }
+      .review-grid {
+        display:flex !important;
+        overflow-x:auto;
+        scroll-snap-type:x mandatory;
+        -webkit-overflow-scrolling:touch;
+        gap:1rem;
+        padding-bottom:1rem;
+        scrollbar-width:none;
+      }
+      .review-grid::-webkit-scrollbar { display:none }
+      .review-grid > figure,
+      .review-grid > div {
+        flex:0 0 85vw;
+        max-width:85vw;
+        scroll-snap-align:start;
+      }
+      .carousel-dots {
+        display:flex;
+        justify-content:center;
+        gap:7px;
+        margin-top:1.25rem;
+      }
+      .carousel-dot {
+        width:8px;height:8px;border-radius:50%;
+        background:var(--border-md);
+        border:none;cursor:pointer;padding:0;
+        transition:background 0.2s,transform 0.2s;
+      }
+      .carousel-dot.active {
+        background:var(--mauve);
+        transform:scale(1.25);
+      }
+    }
+    @media(min-width:601px){
+      .carousel-dots { display:none }
+    }
   </style>
+
+  <script>
+  (function(){
+    function initCarousel(){
+      var grid = document.querySelector('.review-grid');
+      var dots = document.querySelectorAll('.carousel-dot');
+      if(!grid || !dots.length) return;
+      if(window.innerWidth > 600) return;
+
+      function updateDots(){
+        var items = grid.querySelectorAll('figure, div');
+        var scrollLeft = grid.scrollLeft;
+        var itemW = items[0] ? items[0].offsetWidth + 16 : 1;
+        var idx = Math.round(scrollLeft / itemW);
+        dots.forEach(function(d,i){ d.classList.toggle('active', i===idx); });
+      }
+
+      dots.forEach(function(dot, i){
+        dot.addEventListener('click', function(){
+          var items = grid.querySelectorAll('figure, div');
+          var itemW = items[0] ? items[0].offsetWidth + 16 : 0;
+          grid.scrollTo({ left: i * itemW, behavior:'smooth' });
+        });
+      });
+
+      grid.addEventListener('scroll', updateDots, { passive:true });
+      updateDots();
+    }
+    if(document.readyState==='loading'){
+      document.addEventListener('DOMContentLoaded', initCarousel);
+    } else {
+      initCarousel();
+    }
+  })();
+  </script>
 
 </section>
 
@@ -822,7 +897,7 @@ footer{background:var(--ink);padding:3rem 5%}
         </div>
         <div class="fg"><label>Preferred Date</label><input type="date"></div>
         <div class="fg"><label>Message</label><textarea placeholder="Any questions or concerns…"></textarea></div>
-        <button type="submit" class="form-submit">Send Request →</button>
+        <button type="submit" class="form-submit">📲 Send via WhatsApp →</button>
       </form>
     </div>
   </div>
@@ -883,12 +958,43 @@ function closeMenu(){
 }
 function handleSubmit(e){
   e.preventDefault();
-  const btn=e.target.querySelector('.form-submit');
-  btn.textContent="Request sent! We'll call you shortly.";
-  btn.style.background='var(--mauve-d)';
-  btn.disabled=true;
-  setTimeout(()=>{btn.textContent='Send Request →';btn.disabled=false;btn.style.background='';e.target.reset();},4000);
+  const form = e.target;
+  const firstName = form.querySelector('input[placeholder="Priya"]').value.trim();
+  const lastName  = form.querySelector('input[placeholder="Sharma"]').value.trim();
+  const phone     = form.querySelector('input[type="tel"]').value.trim();
+  const service   = form.querySelector('select').value || 'Not specified';
+  const date      = form.querySelector('input[type="date"]').value || 'Not specified';
+  const message   = form.querySelector('textarea').value.trim() || 'None';
+
+  const text =
+    "Hello Dr. Pooja,%0A%0A" +
+    "I would like to request an appointment at Dental Avenue Clinic.%0A%0A" +
+    "*Name:* " + encodeURIComponent(firstName + ' ' + lastName) + "%0A" +
+    "*Phone:* " + encodeURIComponent(phone) + "%0A" +
+    "*Service:* " + encodeURIComponent(service) + "%0A" +
+    "*Preferred Date:* " + encodeURIComponent(date) + "%0A" +
+    "*Message:* " + encodeURIComponent(message) + "%0A%0A" +
+    "Thank you.";
+
+  window.open("https://wa.me/919829495869?text=" + text, "_blank");
 }
 </script>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/919829495869?text=Hello%20Dr.%20Pooja%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20Dental%20Avenue%20Clinic." target="_blank" rel="noopener" aria-label="Chat on WhatsApp"
+  style="position:fixed;bottom:1.5rem;right:1.5rem;z-index:999;
+  width:56px;height:56px;border-radius:50%;
+  background:#25D366;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 4px 16px rgba(37,211,102,0.45);
+  transition:transform 0.2s,box-shadow 0.2s;
+  text-decoration:none;"
+  onmouseover="this.style.transform='scale(1.1)';this.style.boxShadow='0 6px 24px rgba(37,211,102,0.55)'"
+  onmouseout="this.style.transform='scale(1)';this.style.boxShadow='0 4px 16px rgba(37,211,102,0.45)'">
+  <svg viewBox="0 0 24 24" width="28" height="28" fill="white" aria-hidden="true">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/>
+  </svg>
+</a>
+
 </body>
 </html>
