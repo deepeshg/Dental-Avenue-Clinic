@@ -238,13 +238,27 @@ footer{background:var(--ink);padding:3rem 5%}
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
       "opens": "09:00",
       "closes": "13:00"
     },
     {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
       "opens": "17:00",
       "closes": "19:30"
     }
@@ -260,9 +274,33 @@ footer{background:var(--ink);padding:3rem 5%}
     "@type": "Physician",
     "name": "Dr. Pooja Goyal",
     "hasCredential": [
-      {"@type": "EducationalOccupationalCredential","credentialCategory": "degree","name": "BDS","recognizedBy": {"@type": "Organization","name": "SMS Medical College, Jaipur"}},
-      {"@type": "EducationalOccupationalCredential","credentialCategory": "degree","name": "MDS – Pediatric & Preventive Dentistry","recognizedBy": {"@type": "Organization","name": "Rajasthan Dental College & Hospital, RUHS"}},
-      {"@type": "EducationalOccupationalCredential","credentialCategory": "certificate","name": "PGCOI – Post Graduate Certificate in Oral Implantology","recognizedBy": {"@type": "Organization","name": "Nair Dental College & Hospital, Mumbai"}}
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "degree",
+        "name": "BDS",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "SMS Medical College, Jaipur"
+        }
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "degree",
+        "name": "MDS – Pediatric & Preventive Dentistry",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "Rajasthan Dental College & Hospital, RUHS"
+        }
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "certificate",
+        "name": "PGCOI – Post Graduate Certificate in Oral Implantology",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "Nair Dental College & Hospital, Mumbai"
+        }
+      }
     ]
   },
   "aggregateRating": {
@@ -275,43 +313,158 @@ footer{background:var(--ink);padding:3rem 5%}
   "review": [
     {
       "@type": "Review",
-      "author": {"@type": "Person","name": "Verified Parent"},
-      "publisher": {"@type": "Organization","name": "Practo Verified"},
+      "author": {
+        "@type": "Person",
+        "name": "Verified Parent"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Practo Verified"
+      },
       "datePublished": "2024-06-01",
-      "reviewRating": {"@type": "Rating","ratingValue": "5","bestRating": "5"},
-      "reviewBody": "My family has been visiting the doctor since 7–8 years now! My son had tongue tie and mouth-breathing for which I consulted the doctor, and she explained to me the whole procedure, assuring smooth and painless treatment. The doctor is experienced and full of patience with children — my son got his tongue tie released and is also undergoing maxillary expansion. Early intervention, correct diagnosis, and on-spot treatment is done. I am fully satisfied with the pediatric care at this clinic in Vaishali Nagar, Jaipur."
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "My family has been visiting the doctor since 7–8 years now! My son had tongue tie and mouth-breathing for which I consulted the doctor, and she explained to me the whole procedure, assuring smooth and painless treatment. The doctor is experienced and full of patience with children — my son got his tongue tie released and is also undergoing maxillary expansion. Early intervention, correct diagnosis, and on-spot treatment is done. I am fully satisfied with the pediatric care at this clinic in Vaishali Nagar, Jaipur.",
+      "itemReviewed": {
+        "@type": "Dentist",
+        "name": "Dental Avenue Clinic",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "467 Nemi Sagar Colony",
+          "addressLocality": "Vaishali Nagar",
+          "addressRegion": "Jaipur",
+          "postalCode": "302021",
+          "addressCountry": "IN"
+        },
+        "url": "https://dentalavenuejaipur.com"
+      }
     },
     {
       "@type": "Review",
-      "author": {"@type": "Person","name": "Mr. Atmesh Beniwal"},
-      "publisher": {"@type": "Organization","name": "Practo Verified"},
+      "author": {
+        "@type": "Person",
+        "name": "Mr. Atmesh Beniwal"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Practo Verified"
+      },
       "datePublished": "2024-05-15",
-      "reviewRating": {"@type": "Rating","ratingValue": "5","bestRating": "5"},
-      "reviewBody": "Words can't explain the goodness, efficiency, behavior, friendly atmosphere, and professional skills exhibited by Dr. Pooja. She is a magician who makes all your dental pains and ailments vanish into thin air. With Dr. Pooja by your side, all your fears just go away. She is an expert in treating your teeth without pain — including root canal treatment at Dental Avenue Clinic, Vaishali Nagar, Jaipur."
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "Words can't explain the goodness, efficiency, behavior, friendly atmosphere, and professional skills exhibited by Dr. Pooja. She is a magician who makes all your dental pains and ailments vanish into thin air. With Dr. Pooja by your side, all your fears just go away. She is an expert in treating your teeth without pain — including root canal treatment at Dental Avenue Clinic, Vaishali Nagar, Jaipur.",
+      "itemReviewed": {
+        "@type": "Dentist",
+        "name": "Dental Avenue Clinic",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "467 Nemi Sagar Colony",
+          "addressLocality": "Vaishali Nagar",
+          "addressRegion": "Jaipur",
+          "postalCode": "302021",
+          "addressCountry": "IN"
+        },
+        "url": "https://dentalavenuejaipur.com"
+      }
     },
     {
       "@type": "Review",
-      "author": {"@type": "Person","name": "Verified Patient"},
-      "publisher": {"@type": "Organization","name": "Practo Verified"},
+      "author": {
+        "@type": "Person",
+        "name": "Verified Patient"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Practo Verified"
+      },
       "datePublished": "2024-04-20",
-      "reviewRating": {"@type": "Rating","ratingValue": "5","bestRating": "5"},
-      "reviewBody": "Dr. Pooja Goyal is exceptionally gentle and patient, making dental visits comfortable even for anxious patients. She explains treatment options honestly, focuses on patient needs, and delivers painless, effective care. The clinic in Vaishali Nagar, Jaipur is very clean and welcoming, with friendly staff. Dr. Pooja also has an exceptional memory, remembering even small details about her patients after years, which makes the experience truly personal and caring."
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "Dr. Pooja Goyal is exceptionally gentle and patient, making dental visits comfortable even for anxious patients. She explains treatment options honestly, focuses on patient needs, and delivers painless, effective care. The clinic in Vaishali Nagar, Jaipur is very clean and welcoming, with friendly staff. Dr. Pooja also has an exceptional memory, remembering even small details about her patients after years, which makes the experience truly personal and caring.",
+      "itemReviewed": {
+        "@type": "Dentist",
+        "name": "Dental Avenue Clinic",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "467 Nemi Sagar Colony",
+          "addressLocality": "Vaishali Nagar",
+          "addressRegion": "Jaipur",
+          "postalCode": "302021",
+          "addressCountry": "IN"
+        },
+        "url": "https://dentalavenuejaipur.com"
+      }
     },
     {
       "@type": "Review",
-      "author": {"@type": "Person","name": "Mr. Jeevan Sharma"},
-      "publisher": {"@type": "Organization","name": "Practo Verified"},
+      "author": {
+        "@type": "Person",
+        "name": "Mr. Jeevan Sharma"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Practo Verified"
+      },
       "datePublished": "2024-03-10",
-      "reviewRating": {"@type": "Rating","ratingValue": "5","bestRating": "5"},
-      "reviewBody": "I got my braces from Dental Avenue Clinic a year back! It was painless and I was explained all the aspects of the orthodontic treatment in detail. Today I got them removed and I am highly satisfied with the results. Each visit was hassle-free. Highly recommend the clinic in Vaishali Nagar, Jaipur for braces and orthodontic treatment."
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "I got my braces from Dental Avenue Clinic a year back! It was painless and I was explained all the aspects of the orthodontic treatment in detail. Today I got them removed and I am highly satisfied with the results. Each visit was hassle-free. Highly recommend the clinic in Vaishali Nagar, Jaipur for braces and orthodontic treatment.",
+      "itemReviewed": {
+        "@type": "Dentist",
+        "name": "Dental Avenue Clinic",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "467 Nemi Sagar Colony",
+          "addressLocality": "Vaishali Nagar",
+          "addressRegion": "Jaipur",
+          "postalCode": "302021",
+          "addressCountry": "IN"
+        },
+        "url": "https://dentalavenuejaipur.com"
+      }
     },
     {
       "@type": "Review",
-      "author": {"@type": "Person","name": "Ms. Jaya Agarwal"},
-      "publisher": {"@type": "Organization","name": "Justdial"},
+      "author": {
+        "@type": "Person",
+        "name": "Ms. Jaya Agarwal"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Justdial"
+      },
       "datePublished": "2024-02-28",
-      "reviewRating": {"@type": "Rating","ratingValue": "5","bestRating": "5"},
-      "reviewBody": "I have been visiting the doctor since 13–14 years and there's no better dentist I can trust in Jaipur! Have got multiple treatments done including root canal treatments (RCTs), implants, and crowns. Highly recommended with polite staff and a fantastic clinic full of all the latest dental technology in Vaishali Nagar, Jaipur."
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "I have been visiting the doctor since 13–14 years and there's no better dentist I can trust in Jaipur! Have got multiple treatments done including root canal treatments (RCTs), implants, and crowns. Highly recommended with polite staff and a fantastic clinic full of all the latest dental technology in Vaishali Nagar, Jaipur.",
+      "itemReviewed": {
+        "@type": "Dentist",
+        "name": "Dental Avenue Clinic",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "467 Nemi Sagar Colony",
+          "addressLocality": "Vaishali Nagar",
+          "addressRegion": "Jaipur",
+          "postalCode": "302021",
+          "addressCountry": "IN"
+        },
+        "url": "https://dentalavenuejaipur.com"
+      }
     }
   ]
 }
